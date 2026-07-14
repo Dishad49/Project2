@@ -1,0 +1,30 @@
+.Header,
+.Facts,
+.Quote,
+.Footer {
+    display: flex;
+    flex-wrap:wrap;
+}
+img {
+    width: 150px;
+    height: auto;
+}
+.Header{
+    background-color:#1F2937;
+    font-family: Roboto;
+    color:aliceblue;
+    margin:0;
+}
+.Quote {
+    background-color: #E5E7EB;
+}
+.Footer{
+    justify-content: center;
+    padding: 100px;
+}
+.BoxedStuff{
+    display:flex;
+    background-color:#3882f6 ;
+    color:aliceblue;
+    margin: auto;
+}
