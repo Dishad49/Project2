@@ -6,24 +6,24 @@
     flex-wrap:wrap;
 }
 img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border:3px solid #3671c6;
     border-radius: 8px;
 }
 .Header{
     background-color:#1F2937;
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     color:aliceblue;
     margin:0;
     border: 5px solid gray;
 }
 .Facts{
     font-family: Roboto,sans-serif;
-    min-height:525px;
+    padding: 50px;
     justify-content: center;
     flex: 0 1 auto;
-    gap: 16px;
+    gap: 25px;
 }
 .Drivers{
     font-size: 36px;
@@ -40,19 +40,38 @@ img {
 .c3,
 .c4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
+    font-size: 22px;
     padding: 16px;
     display: flex;
     gap: 16px;
     flex-direction:column;
     height: 350px;
-    width: 150px;
+    width: 250px;
     align-items: center;
     text-align:center;
-    flex: 0 1 auto;
+    flex: 0 1 150px;
 }
 .Quote {
+    margin-top:100px;
     background-color: #E5E7EB;
+    padding: 100px;
+    font-size: 36px;
+    color: #1B2B5A;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Quote p{
+    margin:0;
+    margin-bottom: 50px;
+}
+.Pushed{
+    font-family:'Courier New', Courier, monospace;
+    color: #E30118; 
+}
+.Name{
+    color: #1F2937;
 }
 .Footer{
     justify-content: center;
