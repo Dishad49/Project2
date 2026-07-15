@@ -8,7 +8,7 @@
 img {
     width: 150px;
     height: 150px;
-    border:5px solid #3671c6;
+    border:3px solid #3671c6;
     border-radius: 8px;
 }
 .Header{
@@ -20,10 +20,10 @@ img {
 }
 .Facts{
     font-family: Roboto,sans-serif;
-    min-height:550px;
+    min-height:525px;
     justify-content: center;
     flex: 0 1 auto;
-    gap: 25px;
+    gap: 16px;
 }
 .Drivers{
     font-size: 36px;
@@ -33,7 +33,7 @@ img {
     width:100%;
     justify-content: center;
     align-items:center;
-    margin:auto;
+    margin-bottom:0px;
 }
 .c1,
 .c2,
