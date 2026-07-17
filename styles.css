@@ -76,7 +76,7 @@ img {
     height:auto;
     border-color:#1F2937;
 }
-.Oracle button{
+.Intro button{
     background-color:#3882F6;
     color: aliceblue;
     width: 100px;
@@ -140,11 +140,45 @@ img {
 }
 .Footer{
     justify-content: center;
-    padding: 100px;
+    padding: 150px;
 }
 .BoxedStuff{
     display:flex;
     background-color:#3882f6 ;
     color:aliceblue;
     margin: auto;
+    border-radius: 8px;
+    padding:20px;
+    justify-content: space-between;
+    align-items:center;
+    width: 900px;
+    height: 100px;
+}
+.Request,
+.BoxedStuff button{
+    display:flex;
+    flex-direction: column;
+}
+.Curious{
+    font-size:22px;
+    font-weight: 700;
+}
+.Request{
+    width: 600px;
+    font-size:18px;
+    font-weight: 300;
+    font-family:Roboto, sans-serif;
+}
+.BoxedStuff button{
+    height: 40px;
+    width: 75px;
+    justify-content: center;
+    align-items: center;
+    background-color:#3882f6 ;
+    border-radius:8px;
+    border-color: aliceblue;
+}
+.BoxedStuff a{
+    text-decoration:none;
+    color:aliceblue;
 }
