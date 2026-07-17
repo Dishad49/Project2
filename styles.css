@@ -52,16 +52,36 @@ img {
 .Content .Oracle {
     display:flex;
     width: 500px;
+    height: 400px;
+    justify-content: center;
     flex-direction:column;
 }
 .Intro h1{
     font-size:48px;
     font-weight:900;
     color:#F9FAF8;
+    padding-top:0px;
 }
 .Intro p{
     font-size:18px;
     color:#F9FAF8;
+}
+.Oracle{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Oracle img{
+    width: 300px;
+    height:auto;
+    border-color:#1F2937;
+}
+.Oracle button{
+    background-color:#3882F6;
+    color: aliceblue;
+    width: 100px;
+    height:35px;
+    border-radius:8px;
 }
 .Facts{
     font-family: Roboto,sans-serif;
