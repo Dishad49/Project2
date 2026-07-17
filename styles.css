@@ -16,7 +16,52 @@ img {
     font-family: Roboto,sans-serif;
     color:aliceblue;
     margin:0;
-    border: 5px solid gray;
+}
+.Top,
+.Content{
+    display: flex;
+    width:100%;
+}
+.Top{
+    justify-content: space-around;
+    align-items:center;
+}
+.Top h5{
+    font-size:24px;
+    color: #F9FAF8;
+}
+.Top a{
+    text-decoration:none;
+    color:inherit;
+}
+.Top ul{
+    list-style:none;
+    gap: 20px;
+    display:flex;
+    font-size:18px;
+    color: #E5E7EB;
+}
+.Content {
+    padding: 50px;
+    align-items:center;
+    justify-content: center;
+    gap:40px;
+    padding-top:0;
+}
+.Content .Intro,
+.Content .Oracle {
+    display:flex;
+    width: 500px;
+    flex-direction:column;
+}
+.Intro h1{
+    font-size:48px;
+    font-weight:900;
+    color:#F9FAF8;
+}
+.Intro p{
+    font-size:18px;
+    color:#F9FAF8;
 }
 .Facts{
     font-family: Roboto,sans-serif;
